@@ -74,7 +74,7 @@ classifier.fit_generator(training_set,
 
 
 ####################################################
-# Homework: test your own cat and dog
+# Take a picture and test if the CNN model can figure out if it is a dog or cat
 import numpy as np
 from keras.preprocessing import image
 test_image = image.load_img('/Users/frankstone/Desktop/Work/Deep Learning/Deep_Learning_A_Z/Convolutional_Neural_Networks/dataset/single_prediction/IMG_0517.JPG', 
